@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.card{
+    width: 18.5em;
+    height: 31.5em;
+    background: url(woman-standing-indoor-1926769.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 2em;
+    border: .5em solid black;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    -webkit-box-shadow: inset 0px -5px 88px 31px rgba(0,0,0,0.78);
+    -moz-box-shadow: inset 0px -5px 88px 31px rgba(0,0,0,0.78);
+    box-shadow: inset 0px -5px 88px 31px rgba(0,0,0,0.78),
+    1rem 1rem 2rem black;
+
+}
+.top-icons{
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+.top-icons p{
+    flex: 1;
+    font-size: .7em;
+}
+.top-icons span{
+    width: 100%;
+    text-align: right;
+    font-size: .6em;
+}
+.top-icons span i{
+   padding: 0 .3em;
+}
+
+
+i,p,h1,.buttons,h4{
+    color: white;
+}
+.text1 {
+    flex:1 ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row;
+}
+.text1 h4 {
+   font-weight: 600;
+   font-size: .9em;
+}
+
+.main-text{
+    flex:8 ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+    text-transform: capitalize;
+    color: silver;
+}
+.buttons{
+    flex:1 ;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow:column;
+}
+button{
+    color: white;
+    background: #000;
+    text-transform: capitalize;
+    font-size: .7em;
+    padding: .5em 0;
+    border-radius: .4em;
+    outline: none;
+    border: none;
+}
+button:first-child{
+    margin-bottom: .5em;
+}
+.help
+{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    text-align: center;
+    padding: .5em;
+}
+.help p{
+    display: inline-flex;
+    text-transform: capitalize;
+    font-size: .7em;
+}
+.help h4{
+    display: inline-flex;
+    text-transform: capitalize;
+    font-size: .8em;
+}
